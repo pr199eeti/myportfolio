@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5d5b5a711b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/preetiphoto.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Development</p>
+            <h1>Hi, I'm Preeti Bhagat<br>From Amravati Maharashtra.</h1>
+        </div>
+    </div>
+</div>
+<!----------about--------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/background.png.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><br>
+                <p>I'm Preeti Shekhar Bhagat from Amravati Maharashtra.<br><br>
+                   I am Full Stack Developer in programming language such as,<br> 
+                   C, C++, Python, HTML, CSS, Javascript etc.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Project')">Project</p>
+                </div>
+                   <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Python</span><br>SQL</li>
+                        <li><span>HTML</span><br>CSS</li>
+                        <li><span>Java</span><br>Javascript</li>
+                        <li><span>C</span><br>C++</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>(2016)</span><br>SSC</li>
+                            <li><span>(2018)</span><br>HSC</li>
+                            <li><span>(2021)</span><br>B.Sc Computer Science</li>
+                            <li><span>MCA (Pursuing)</span><br>(Full Stack Development)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Project">
+                        <ul>
+                            <li><span>Professional Portfolio.<br>(2023)<br></span><br>This is a Portfolio Websites.
+                                    <br>I have used the HTML, CSS, JS language this project.</li>
+                        </ul>
+                    </div>
+              </div>
+         </div>
+    </div>
+</div>
+<!----------services----------->
+
+<!------------updated ----------->
+</div>
+</div>
+
+<div id="services"> 
+<div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Full Stack Developer</h2>
+            <p>I am a Enthuziastice & Passionate Full Stack Developer is responsible for developing application that run on both.
+               The client-side (front-end) and server-side (back-end).</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Application Developer</h2>
+            <p>I am a Enthuziastice & Passionate software developer</p>
+            <a href="images/pdf.pdf">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Web Developer</h2>
+            <p>I am a Enthuziastice Web Developer.
+                A Web Developer makes and maintain websites.</p>
+            <a href="images/pdf.pdf">Learn more</a>
+        </div>
+    </div>
+</div>
+
+
+<!-----------portfolio------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/712443_Issue_with_Multiple_Apps.webp">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>We can use that app for explore the world it available on playstore.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/connect-skullcandy-to-iphone-scaled.webp">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>We can easily listen music any spot using this apk.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/black-friday-smartphone-woman-holding-phone-web-site-shopping-app-buy-online-mall-background-104362546.jpg">
+                <div class="layer">
+                    <h3>Online Shopping app</h3>
+                    <p>For the shoping purpose we use thise apk like a as option.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="images/pdf.pdf" class="btn">See more</a>
+    </div>
+</div>
+
+<!-------------contact------------->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><a href="Mailto:preetibhagat210@gmail.com"><i class="fa-solid fa-paper-plane"></i></a>preetibhagat210@gmail.com</p>
+                <p><a href="Mob No.:8806215456"><i class="fa-solid fa-phone"></i></i></i></a> 8806215456</p>
+                <div class="Social-icons">
+                    <a href="https://www.linkedin.com/in/preeti-bhagat-10b08a257"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/pr199eeti"><i class="fa-brands fa-github"> </i></a>
+                    <a href="https://join.skype.com/invite/uc05vzEuV4IQ"><i class="fa-brands fa-skype"></i></a>
+                    <a href="https://instagram.com/preeti.7213?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                
+                </div>
+                <a href="Bhagat_Preeti Shekhar_CV.pdf" Download Class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="9" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            <div class="copyright">
+                <p>PREETI SHEKHAR BHAGAT...<i class="fa-solid fa-heart"></i></p>
+            </div>
+
+
+<!------------ updated ------------>
+<script>
+
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+       </script>
+
+<script>
+    var sidemeu = document.getElementsByClassName("sidemenu");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function openmenu(tabname){
+        sidemenu.style.right = "0";
+        }
+        function closemenu(tabname){
+        sidemenu.style.right = "-200px";
+        }
+        
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwgzCd1-mBxQxg8iQHqaz1tut7VqajNUTuYJt78lb5qM6fFbr7Uz5JCMnq6sxWTAxBl/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
